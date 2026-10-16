@@ -1,0 +1,27 @@
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android local secrets and machine config
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Personal data (do not commit)
+*.private.json
+*.personal.json
+backups/
+exports/
